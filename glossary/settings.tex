@@ -1,0 +1,17 @@
+
+\glsnoexpandfields
+
+\newcommand*{\glsarg}{}
+
+\defglsentryfmt{%
+  \let\orgglsarg\glsarg
+  \ifdefempty\glsinsert
+  {}%
+  {%
+    \let\glsarg\glsinsert
+    \let\glsinsert\relax
+  }%
+  \glsgenentryfmt
+  \let\glsarg\orgglsarg
+}
+

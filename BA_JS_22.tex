@@ -2,6 +2,8 @@
 \documentclass[abstracton]{scrreprt}
 \usepackage[ngerman]{babel}
 \usepackage{color}
+\usepackage{hyperref}
+\hypersetup{ colorlinks=true, pdfhighlight=/P }
 \usepackage[a4paper]{geometry}
 \usepackage{fontspec}
 \setmainfont[Ligatures=TeX]{IBM Plex Sans Condensed}
@@ -10,11 +12,9 @@
 \usepackage[mathrm=sym]{unicode-math}
 \setmathfont{Fira Math}
 \usepackage[ngerman]{translator}
-\usepackage{hyperref}
-\hypersetup{ colorlinks=true, pdfhighlight=/P }
 \usepackage[ acronym ]{glossaries}
+\input{./glossary/settings}
 \input{./glossary/glossary}
-\input{./glossary/acronyms}
 \input{./glossary/symbols}
 \makeglossaries
 \usepackage{csquotes}
@@ -39,8 +39,18 @@
 
 %-Inhalt-----------------------------------------------------------------------
 \chapter{Allgemeines}
+\gls{s:(}
+etwas text
+mer tetyy
+adsf \gls{g:SymProp} asdföl flaog 
+a dsf adsf \gls{g:SymProp}
+a dsf adsf \gls{g:SymProp}
+\gls{s:(}
+a dsf adsf \gls{g:SymProp}
+\gls{s:(}[3]
 
 %-Glossar----------------------------------------------------------------------
+\glsaddall
 \printglossary[style=altlist,title=Glossar]
 
 %-Abkürzungen------------------------------------------------------------------
