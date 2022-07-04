@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is '.tex_build/BA_JS_22.blg'
+[48] biber:340> INFO - === Mo Jul  4, 2022, 13:48:08
+[58] Biber.pm:418> INFO - Reading '.tex_build/BA_JS_22.bcf'
+[108] Biber.pm:972> INFO - Found 2 citekeys in bib section 0
+[118] Biber.pm:4383> INFO - Processing section 0
+[125] Biber.pm:4574> INFO - Looking for bibtex file 'bib/refs.bib' for section 0
+[125] bibtex.pm:1713> INFO - LaTeX decoding ...
+[129] bibtex.pm:1518> INFO - Found BibTeX data source 'bib/refs.bib'
+[167] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[167] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[167] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[167] Biber.pm:4209> INFO - No sort tailoring available for locale 'de-DE'
+[169] bbl.pm:654> INFO - Writing '.tex_build/BA_JS_22.bbl' with encoding 'UTF-8'
+[170] bbl.pm:757> INFO - Output to .tex_build/BA_JS_22.bbl

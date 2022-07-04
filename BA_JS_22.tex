@@ -1,0 +1,77 @@
+% !TeX program = xelatex
+\documentclass{scrreprt}
+
+\usepackage[ngerman]{babel}
+\usepackage{color}
+\usepackage[a4paper]{geometry}
+	
+
+\usepackage{fontspec}
+\setmainfont[Ligatures=TeX]{IBM Plex Sans Condensed}
+
+\usepackage{amsmath}
+\usepackage[mathrm=sym]{unicode-math}
+\setmathfont{Fira Math}
+\usepackage[ngerman]{translator}
+
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,
+pdfhighlight=/P
+}%
+
+\usepackage[ acronym ]{glossaries}
+\input{./glossary/glossary}
+\input{./glossary/acronyms}
+\input{./glossary/symbols}
+\makeglossaries
+
+\usepackage{csquotes}
+\usepackage{biblatex}
+\addbibresource{bib/refs.bib}
+
+\usepackage{blindtext}
+
+
+
+
+\begin{document}
+\input{./frontmatter/titlepage}
+
+\renewcommand{\abstractname}{Abstract}
+\begin{abstract}
+\input{./frontmatter/abstract}
+\end{abstract}
+
+\tableofcontents
+
+\chapter{Allgemeines}
+\LaTeX{} \cite{latex2e} is a set of macros built atop \TeX{} \cite{texbook}.
+In unserem Netzwerk setzen wir auf \gls{AD}. Durch den Einsatz
+eines \gls{AD} erreichen wir bei \gls{MS}-Systemen, die mit einer
+\gls{glos:AntwD} von \gls{CD} installiert wurden, die beste Standardisierung.
+\section{Griechische Symbole}
+Berechnungen mit \gls{symb:Pi} ergeben stets ein ungenaues Ergebnis,
+denn \gls{symb:Pi} ist eine irrationale Zahl. Weiterhin gibt es noch
+\gls{symb:Phi} und \gls{symb:Lambda}.
+\subsection{subsection}
+\gls{glos:Test} ist ein kleiner Test
+\blindtext
+\subsubsection{subsubsection}
+\blindtext
+\paragraph{paragraph}
+\Blindtext
+\subparagraph{supparagraph}
+\blindtext
+
+%Glossar ausgeben
+\printglossary[style=altlist,title=Glossar]
+%Abkürzungen ausgeben
+\printglossary[type=\acronymtype,style=long]
+%Symbole ausgeben
+
+\printglossary[type=symbolslist,style=long]
+
+%Bibliographie ausgeben
+\printbibliography
+
+\end{document}

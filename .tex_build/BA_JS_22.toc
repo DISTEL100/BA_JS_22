@@ -1,0 +1,8 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {chapter}{\numberline {1}Allgemeines}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Griechische Symbole}{4}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}subsection}{4}{subsection.1.1.1}%
+\contentsline {subsubsection}{\nonumberline subsubsection}{4}{subsubsection*.3}%
+\contentsline {paragraph}{\nonumberline paragraph}{4}{paragraph*.5}%
+\contentsline {subparagraph}{\nonumberline supparagraph}{6}{subparagraph*.7}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
