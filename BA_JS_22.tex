@@ -1,6 +1,7 @@
 % !TeX program = xelatex
 \documentclass[abstracton]{scrreprt}
 \usepackage[ngerman]{babel}
+\usepackage{import}
 \usepackage{color}
 \usepackage{hyperref}
 \hypersetup{ colorlinks=true, pdfhighlight=/P }
@@ -8,13 +9,12 @@
 \usepackage{fontspec}
 \setmainfont[Ligatures=TeX]{IBM Plex Sans Condensed}
 \usepackage{amsmath,amsthm}
-\input{./theorems/settings}
+\input{./theories/settings}
 \usepackage[mathrm=sym]{unicode-math}
 \setmathfont{Fira Math}
 \usepackage[ngerman]{translator}
 \usepackage[ acronym ]{glossaries}
 \input{./glossary/settings}
-\input{./glossary/glossary}
 \input{./glossary/symbols}
 \makeglossaries
 \usepackage{csquotes}
@@ -38,16 +38,8 @@
 \tableofcontents
 
 %-Inhalt-----------------------------------------------------------------------
-\chapter{Allgemeines}
-\gls{s:(}
-etwas text
-mer tetyy
-adsf \gls{g:SymProp} asdföl flaog 
-a dsf adsf \gls{g:SymProp}
-a dsf adsf \gls{g:SymProp}
-\gls{s:(}
-a dsf adsf \gls{g:SymProp}
-\gls{s:(}[3]
+\chapter{Prelimaries}
+\import{chapters}{prelimaries}
 
 %-Glossar----------------------------------------------------------------------
 \glsaddall
