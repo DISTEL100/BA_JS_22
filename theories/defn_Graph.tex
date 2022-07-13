@@ -1,0 +1,25 @@
+\newglossaryentry{g:Graph}{
+	name=Graph,
+	description={
+		Ist die Mengentheoretische Beschreibung einer Funktion.
+	}
+}
+
+\newcommand{\jjg}[1]{\glslink{g:Graph}{\ensuremath{\mathit{\##1}}}}.
+
+\newglossaryentry{s:Graph}{
+	name=\jjg{a},
+	description={Graph},
+	sort=funktion_graph,
+	type=symbolslist
+}
+
+\begin{defn}[\gls{g:Graph}]
+	\glsdesc{g:Graph}
+	Der Graph der Funktion $\jjf{a}: \jjset{B} \mapsto \jjset{C}$ ist die Menge
+	$\jjset{A} \subseteq \jjset{B} \times \jjset{C}$,
+	die alle Paare $ ( \jjc{b}, \jjc{c} ) $
+	enthält, mit $\jjf{a}\jjc{b} = \jjc{c}$
+\end{defn}
+
+\paragraph{Schreibweise} Den Graphen der Funktion \jjf{a} schreiben wir \jjg{a}
