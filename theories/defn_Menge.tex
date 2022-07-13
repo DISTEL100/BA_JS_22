@@ -1,0 +1,40 @@
+\newglossaryentry{g:Menge}{
+	name=Menge,
+	description={
+		Eine Zusammenfassung verschiedener Konstanten.
+	}
+}
+
+\newcommand{\jjset}[1]{\glslink{g:Menge}{\ensuremath{\mathbb{#1}}}}
+
+\newglossaryentry{s:Menge}{
+	name=\jjset{A},
+	description={Menge},
+	sort=menge,
+	type=symbolslist
+}
+
+\newcommand{\jjpset}[1]{\glslink{g:Menge}{\ensuremath{\mathbb{\widehat{#1}}}}}
+
+\newglossaryentry{s:Potenzmenge}{
+	name=\jjpset{A},
+	description={Potenzmenge},
+	sort=menge_potenz,
+	type=symbolslist
+}
+
+\begin{defn}[\gls{g:Menge}]
+	\glsdesc{g:Menge}
+	Eine Konstante, die in eine Menge gefasst wurde heißt \textit{Element der Menge}.
+	$0$ Konstanten zu einer Menge zusammengefasst ergibt die \textit{leere Menge}.
+\end{defn}
+
+\paragraph{Schreibweise}
+Wir schreiben Mengen als einen großen Buchstaben, z.~B. \jjset{A} oder \jjset{B}.
+Wollen wir eine Menge \jjset{X} explizit angeben, listen wir ihre Elemente auf und schreiben $\jjset{X} = \{ \jjc{a},\jjc{b},\jjc{c},\jjc{d}\}$.
+Genauso gut sind aber alle Beschreibungen, die keine Zweifel zulassen, was zur Menge gehört und was nicht.
+Eine \textit{Potenzmenge} \jjpset{A}, die Menge aller Teilmengen von \jjset{A}, schreiben wir mit einem Dach.
+
+
+
+

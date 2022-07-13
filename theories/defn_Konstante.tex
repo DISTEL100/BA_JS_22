@@ -1,10 +1,24 @@
 \newglossaryentry{g:Konstante}{
 	name=Konstante,
 	description={
-		Ein Zeichen, das nur eine Interpretation erlaubt. Die Bedeutung und der Sinn sind eindeutig.
+		Ein \textbf{eindeutiges} Zeichen.	
+		Es gibt keine Zweifel, für welchen Begriff es steht und welches Ding gemeint ist. 
 	}
 }
 
+\newcommand{\jjc}[1]{\glslink{g:Konstante}{\ensuremath{\mathbf{#1}}}}.
+
+\newglossaryentry{s:Konstante}{
+	name=\jjc{a},
+	description={Konstanten},
+	sort=konstanten,
+	type=symbolslist
+}
+
 \begin{defn}[\gls{g:Konstante}]
-	Ein Zeichen mit \textbf{eindeutiger} Bedeutung.	
+	\glsdesc{g:Konstante}	
+	\cite[9]{ACIntro}
 \end{defn}
+
+	\paragraph{Schreibweise} 
+	Für eine Konstante benutzen wir einen kleinen, fett gedruckten Buchstaben z.B. \jjc{a} oder \jjc{g}.
