@@ -9,24 +9,20 @@
 \usepackage{fontspec}
 \setmainfont[Ligatures=TeX]{IBM Plex Sans Condensed}
 \usepackage{amsmath,amsthm}
-\input{./theories/settings}
 \usepackage[mathrm=sym]{unicode-math}
 \setmathfont{Fira Math}
 \usepackage[ngerman]{translator}
 \usepackage[ acronym ]{glossaries}
-\input{./glossary/settings}
-\input{./glossary/symbols}
+\input{./settings/glossaries}
 \makeglossaries
 \usepackage{csquotes}
 \usepackage{biblatex}
 \addbibresource{bib/refs.bib}
 \usepackage{blindtext}
-
 %------------------------------------------------------------------------------
 % Begin
 %------------------------------------------------------------------------------
 \begin{document}
-
 %-Titlepage--------------------------------------------------------------------
 \input{./frontmatter/titlepage}
 
@@ -40,7 +36,6 @@
 %-Inhalt-----------------------------------------------------------------------
 \chapter{Prelimaries}
 \import{chapters}{prelimaries}
-
 %-Glossar----------------------------------------------------------------------
 \glsaddall
 \printglossary[style=altlist,title=Glossar]

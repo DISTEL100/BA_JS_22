@@ -14,3 +14,24 @@
 \newtheorem*{rem}{Remark}
 \newtheorem*{note}{Note}
 \newtheorem{case}{Case}
+
+%Neues Glossary für Symbole
+\newglossary[slg]{symbolslist}{syi}{syg}{Symbolverzeichnis}
+
+% Glossary entry with index
+\glsnoexpandfields
+
+\newcommand*{\glsarg}{}
+
+\defglsentryfmt{%
+  \let\orgglsarg\glsarg
+  \ifdefempty\glsinsert
+  {}%
+  {%
+    \let\glsarg\glsinsert
+    \let\glsinsert\relax
+  }%
+  \glsgenentryfmt
+  \let\glsarg\orgglsarg
+}
+
