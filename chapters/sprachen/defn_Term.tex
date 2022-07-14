@@ -1,11 +1,31 @@
 \newglossaryentry{g:Term}{
 	name=Term,
 	description={
-		Ist eine Zeichenkette aus Variablen, Konstanten und Funktionen.
+		Ist eine Zeichenkette, die man durch endlichmalige Anwendung von \ref{T1}-\ref{T3} erhält.
 	}
 }
 
+\newcommand{\jjt}[1]{\glslink{g:Term}{\ensuremath{\text{{\firalight#1}}}}}
+
+\newglossaryentry{s:Term}{
+	name=\jjt{t},
+	description={Term},
+	sort=term,
+	type=symbolslist
+}
+
 \begin{defn}[\gls{g:Term}]
-\glsdesc{g:Term}
-\cite{HEEinf}
+	\glsdesc{g:Term}
+	\cite{HEEinf}
+	\begin{flalign}
+		&\tag{T1}\label{T1} 
+		\text{Jede Variable ist ein Term.}\\
+		&\tag{T2}\label{T2} 
+		\text{Jede Konstante ist ein Term.}\\
+		&\tag{T3}\label{T3} 
+		\text{Ist \jjt{t} ein $n$-Tupel von Termen und \jjf{f} eine $n$-stellige Funktion,
+			so ist \jjt{t}\jjf{f} ein Term.}
+	\end{flalign}
 \end{defn}
+
+

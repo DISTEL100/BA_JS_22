@@ -9,31 +9,40 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
-ACIntro	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/refs.bib	/^@BOOK{ACIntro,$/;"	b
-DHGrundI	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/refs.bib	/^@BOOK{DHGrundI,$/;"	b
-DHGrundII	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/refs.bib	/^@BOOK{DHGrundII,$/;"	b
-Funktionen	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/chapters/prelimaries.tex	/^\\section{Funktionen}$/;"	s	chapter:Sprachen
-GFSinn	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/refs.bib	/^@BOOK{GFSinn,$/;"	b
-HEEinf	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/refs.bib	/^@BOOK{HEEinf,$/;"	b
-Konstanten und Variablen	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/chapters/prelimaries.tex	/^\\section{Konstanten und Variablen}$/;"	s	chapter:Sprachen
-Prelimaries	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/BA_JS_22.tex	/^\\chapter{Prelimaries}$/;"	c
-Prelimaries	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/chapters/prelimaries/defn_Ausdruck.tex	/^\\chapter{Prelimaries}$/;"	c
-SEAutom	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/refs.bib	/^@BOOK{SEAutom,$/;"	b
-Schreibweise	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/chapters/prelimaries/defn_Funktion.tex	/^\\paragraph{Schreibweise} Eine Funktion von \\jjset{A} nach \\jjset{B} schreiben wir mit kleinem/;"	P	section:Terme und Ausdrücke
-Schreibweise	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/chapters/prelimaries/defn_Graph.tex	/^\\paragraph{Schreibweise} Den Graphen der Funktion \\jjf{a} schreiben wir \\jjg{a}$/;"	P	section:Terme und Ausdrücke
-Schreibweise	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/chapters/prelimaries/defn_Konstante.tex	/^	\\paragraph{Schreibweise} $/;"	P	section:Terme und Ausdrücke
-Schreibweise	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/chapters/prelimaries/defn_Menge.tex	/^\\paragraph{Schreibweise}$/;"	P	section:Terme und Ausdrücke
-Schreibweise	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/chapters/prelimaries/defn_Relation.tex	/^\\paragraph{Schreibweise} Eine Relation zwischen \\jjset{A} und \\jjset{B} schreiben wir $\\jjf{/;"	P	section:Terme und Ausdrücke
-Schreibweise	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/chapters/prelimaries/defn_Variable.tex	/^\\paragraph{Schreibweise} Variablen schreiben wir als einfache kleine Buchstaben, z.B. \\jjv{v} /;"	P	section:Terme und Ausdrücke
-Sprachen	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/BA_JS_22.tex	/^\\chapter{Sprachen}$/;"	c
-Sprachen	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/chapters/prelimaries/defn_Ausdruck.tex	/^\\chapter{Sprachen}$/;"	c
-Terme und Ausdrücke	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/chapters/sprachen.tex	/^\\section{Terme und Ausdrücke}$/;"	s
-UESemiotik	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/refs.bib	/^@BOOK{UESemiotik,$/;"	b
-Zeichen	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/chapters/prelimaries.tex	/^\\section{Zeichen}$/;"	s	chapter:Sprachen
-\\jjc	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/chapters/prelimaries/defn_Konstante.tex	/^\\newcommand{\\jjc}[1]{\\glslink{g:Konstante}{\\ensuremath{\\mathbf{#1}}}}.$/;"	C
-\\jjf	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/chapters/prelimaries/defn_Funktion.tex	/^\\newcommand{\\jjf}[1]{\\glslink{g:Funktion}{\\ensuremath{\\text{{\\firalight\\textit{#1}}}}}}$/;"	C
-\\jjg	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/chapters/prelimaries/defn_Graph.tex	/^\\newcommand{\\jjg}[1]{\\glslink{g:Graph}{\\ensuremath{\\mathit{\\##1}}}}.$/;"	C
-\\jjpset	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/chapters/prelimaries/defn_Menge.tex	/^\\newcommand{\\jjpset}[1]{\\glslink{g:Menge}{\\ensuremath{\\mathbb{\\widehat{#1}}}}}$/;"	C
-\\jjset	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/chapters/prelimaries/defn_Menge.tex	/^\\newcommand{\\jjset}[1]{\\glslink{g:Menge}{\\ensuremath{\\mathbb{#1}}}}$/;"	C
-\\jjv	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/chapters/prelimaries/defn_Variable.tex	/^\\newcommand{\\jjv}[1]{\\glslink{g:Variable}{\\ensuremath{#1}}}$/;"	C
-requests	/home/jonathan/00_SS22/Bachelorarbeit/Arbeit/.tex_build/BA_JS_22.run.xml	/^<!DOCTYPE requests [$/;"	r
+A1	chapters/sprachen/defn_Ausdruck.tex	/^		&\\tag{A1}\\label{A1} \\text{Sind \\jjt{t\\ts{1}}, \\jjt{t\\ts{2}} Terme,$/;"	l
+A2	chapters/sprachen/defn_Ausdruck.tex	/^		&\\tag{A2}\\label{A2} \\text{ga} \\\\$/;"	l
+A3	chapters/sprachen/defn_Ausdruck.tex	/^		&\\tag{A3}\\label{A3} \\text{adfl} \\\\$/;"	l
+A4	chapters/sprachen/defn_Ausdruck.tex	/^		&\\tag{A4}\\label{A4} \\text{agadf} \\\\$/;"	l
+A5	chapters/sprachen/defn_Ausdruck.tex	/^		&\\tag{A5}\\label{A5} \\text{aaaaa}$/;"	l
+ACIntro	refs.bib	/^@BOOK{ACIntro,$/;"	b
+DHGrundI	refs.bib	/^@BOOK{DHGrundI,$/;"	b
+DHGrundII	refs.bib	/^@BOOK{DHGrundII,$/;"	b
+Funktionen	chapters/prelimaries.tex	/^\\section{Funktionen}$/;"	s	chapter:Sprachen
+GFSinn	refs.bib	/^@BOOK{GFSinn,$/;"	b
+HEEinf	refs.bib	/^@BOOK{HEEinf,$/;"	b
+Konstanten und Variablen	chapters/prelimaries.tex	/^\\section{Konstanten und Variablen}$/;"	s	chapter:Sprachen
+Prelimaries	BA_JS_22.tex	/^\\chapter{Prelimaries}$/;"	c
+Prelimaries	chapters/prelimaries/defn_Ausdruck.tex	/^\\chapter{Prelimaries}$/;"	c
+SEAutom	refs.bib	/^@BOOK{SEAutom,$/;"	b
+Schreibweise	chapters/prelimaries/defn_Funktion.tex	/^\\paragraph{Schreibweise} Eine Funktion von \\jjset{A} nach \\jjset{B} schreiben wir mit kleinem/;"	P	section:Terme und Ausdrücke
+Schreibweise	chapters/prelimaries/defn_Graph.tex	/^\\paragraph{Schreibweise} Den Graphen der Funktion \\jjf{a} schreiben wir \\jjg{a}$/;"	P	section:Terme und Ausdrücke
+Schreibweise	chapters/prelimaries/defn_Konstante.tex	/^	\\paragraph{Schreibweise} $/;"	P	section:Terme und Ausdrücke
+Schreibweise	chapters/prelimaries/defn_Menge.tex	/^\\paragraph{Schreibweise}$/;"	P	section:Terme und Ausdrücke
+Schreibweise	chapters/prelimaries/defn_Relation.tex	/^\\paragraph{Schreibweise} Eine Relation zwischen \\jjset{A} und \\jjset{B} schreiben wir $\\jjf{/;"	P	section:Terme und Ausdrücke
+Schreibweise	chapters/prelimaries/defn_Variable.tex	/^\\paragraph{Schreibweise} Variablen schreiben wir als einfache kleine Buchstaben, z.B. \\jjv{v} /;"	P	section:Terme und Ausdrücke
+Sprachen	BA_JS_22.tex	/^\\chapter{Sprachen}$/;"	c
+Sprachen	chapters/prelimaries/defn_Ausdruck.tex	/^\\chapter{Sprachen}$/;"	c
+T1	chapters/sprachen/defn_Term.tex	/^		&\\tag{T1}\\label{T1} $/;"	l
+T2	chapters/sprachen/defn_Term.tex	/^		&\\tag{T2}\\label{T2} $/;"	l
+T3	chapters/sprachen/defn_Term.tex	/^		&\\tag{T3}\\label{T3} $/;"	l
+Terme und Ausdrücke	chapters/sprachen.tex	/^\\section{Terme und Ausdrücke}$/;"	s
+UESemiotik	refs.bib	/^@BOOK{UESemiotik,$/;"	b
+Zeichen	chapters/prelimaries.tex	/^\\section{Zeichen}$/;"	s	chapter:Sprachen
+\\jjc	chapters/prelimaries/defn_Konstante.tex	/^\\newcommand{\\jjc}[1]{\\glslink{g:Konstante}{\\ensuremath{\\mathbf{#1}}}}.$/;"	C
+\\jjf	chapters/prelimaries/defn_Funktion.tex	/^\\newcommand{\\jjf}[1]{\\glslink{g:Funktion}{\\ensuremath{\\text{{\\firalight\\textit{#1}}}}}}$/;"	C
+\\jjg	chapters/prelimaries/defn_Graph.tex	/^\\newcommand{\\jjg}[1]{\\glslink{g:Graph}{\\ensuremath{\\mathit{\\##1}}}}.$/;"	C
+\\jjpset	chapters/prelimaries/defn_Menge.tex	/^\\newcommand{\\jjpset}[1]{\\glslink{g:Menge}{\\ensuremath{\\mathbb{\\widehat{#1}}}}}$/;"	C
+\\jjset	chapters/prelimaries/defn_Menge.tex	/^\\newcommand{\\jjset}[1]{\\glslink{g:Menge}{\\ensuremath{\\mathbb{#1}}}}$/;"	C
+\\jjt	chapters/sprachen/defn_Term.tex	/^\\newcommand{\\jjt}[1]{\\glslink{g:Term}{\\ensuremath{\\text{{\\firalight#1}}}}}$/;"	C
+\\jjv	chapters/prelimaries/defn_Variable.tex	/^\\newcommand{\\jjv}[1]{\\glslink{g:Variable}{\\ensuremath{#1}}}$/;"	C
+requests	.tex_build/BA_JS_22.run.xml	/^<!DOCTYPE requests [$/;"	r
